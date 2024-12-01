@@ -65,10 +65,10 @@
       - blue=l (синий=l),  
       - orange=o (оранжевый=o),  
       - black=k (черный=k)  
-   1. does-bruise-bleed (n): (образует ли синяки или кровоточит (н)):  
+   5. does-bruise-bleed (n): (образует ли синяки или кровоточит (н)):  
       - bruises-or-bleeding=t (синяки или кровотечение=t),  
       - no=f (нет=f)  
-   2. gill-attachment (n): (прикрепление пластинок (н)):  
+   6. gill-attachment (n): (прикрепление пластинок (н)):  
       - adnate=a (прирастающий=a),  
       - adnexed=x (придаточный=x),  
       - decurrent=d (нисходящий=d),  
@@ -77,17 +77,17 @@
       - pores=p (поры=p),  
       - none=f (нет=f),  
       - unknown=? (неизвестно=?)  
-   3. gill-spacing (n): (расстояние между пластинками (н)):  
+   7. gill-spacing (n): (расстояние между пластинками (н)):  
       - close=c (близко=c),  
       - distant=d (дистанционно=d),  
       - none=f (нет=f)  
-   4. gill-color (n): (цвет пластинок (н)):  
+   8. gill-color (n): (цвет пластинок (н)):  
       - see cap-color + none=f (см. цвет шляпки + нет=f)  
-   5. stem-height (m): (высота стебля (м)):  
+   9. stem-height (m): (высота стебля (м)):  
       - float number in cm (число с плавающей запятой в см)  
-   6. stem-width (m): (ширина стебля (м)):  
+   10. stem-width (m): (ширина стебля (м)):  
       - float number in mm (число с плавающей запятой в мм)  
-   7. stem-root (n): (корень стебля (н)):  
+   11. stem-root (n): (корень стебля (н)):  
       - bulbous=b (луковичный=b),  
       - swollen=s (увеличенный=s),  
       - club=c (буловидный=c),  
@@ -95,17 +95,17 @@
       - equal=e (равный=e),  
       - rhizomorphs=z (ризоморфные=z),  
       - rooted=r (укоренившийся=r)  
-   8. stem-surface (n): (поверхность стебля (н)):  
+   12. stem-surface (n): (поверхность стебля (н)):  
       - see cap-surface + none=f (см. поверхность шляпки + нет=f)  
-   9. stem-color (n): (цвет стебля (н)):  
+   13. stem-color (n): (цвет стебля (н)):  
       - see cap-color + none=f (см. цвет шляпки + нет=f)  
-   10. veil-type (n): (тип покрывала (н)):  
+   14. veil-type (n): (тип покрывала (н)):  
       - partial=p (частичный=p), universal=u (универсальный=u)  
-   11. veil-color (n): (цвет покрывала (н)):  
+   15. veil-color (n): (цвет покрывала (н)):  
       - see cap-color + none=f (см. цвет шляпки + нет=f)  
-   12. has-ring (n): (имеет ли кольцо (н)):  
+   16. has-ring (n): (имеет ли кольцо (н)):  
       - ring=t (кольцо=t), none=f (нет=f)  
-   13. ring-type (n): (тип кольца (н)):  
+   17. ring-type (n): (тип кольца (н)):  
       - cobwebby=c (паутина=c),  
       - evanescent=e (исчезающий=e),  
       - flaring=r (расширяющийся=r),  
@@ -118,9 +118,9 @@
       - movable=m (подвижный=m),  
       - none=f (нет=f),  
       - unknown=? (неизвестно=?)  
-   14. spore-print-color (n): (цвет спорового отпечатка (н)):  
+   18. spore-print-color (n): (цвет спорового отпечатка (н)):  
       - see cap color (см. цвет шляпки)  
-   15. habitat (n): (местообитание (н)):  
+   19. habitat (n): (местообитание (н)):  
       - grasses=g (травы=g),  
       - leaves=l (листья=l),  
       - meadows=m (лужайки=m),  
@@ -129,7 +129,7 @@
       - urban=u (городской=u),  
       - waste=w (пустошь=w),  
       - woods=d (лес=d)  
-   16. season (n): (сезон (н)):  
+   20. season (n): (сезон (н)):  
       - spring=s (весна=s),  
       - summer=u (лето=u),  
       - autumn=a (осень=a),  
